@@ -2,13 +2,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <groupId>{{groupId}}</groupId>
     <parent>
         <groupId>io.helidon.applications</groupId>
         <artifactId>helidon-se</artifactId>
         <version>{{helidonVersion}}</version>
         <relativePath/>
     </parent>
-    <groupId>{{groupId}}</groupId>
     <artifactId>{{artifactId}}</artifactId>
     <name>{{artifactId}}</name>
     {{#appDescription}}
@@ -63,8 +63,8 @@
             <artifactId>{{x-helidon-rootJavaEEDepPrefix}}.json.bind-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.helidon.{{#x-helidon-v4}}http.{{/x-helidon-v3}}media</groupId>
-            <artifactId>helidon-{{#x-helidon-v4}}http-{{/x-helidon-v3}}media-jsonb</artifactId>
+            <groupId>io.helidon.{{^x-helidon-v3}}http.{{/x-helidon-v3}}media</groupId>
+            <artifactId>helidon-{{^x-helidon-v3}}http-{{/x-helidon-v3}}jsonb</artifactId>
         </dependency>
 {{/jsonb}}
         <dependency>
