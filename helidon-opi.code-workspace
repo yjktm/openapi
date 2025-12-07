@@ -1,0 +1,65 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnType": true,
+    "editor.linkedEditing": true,
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggestSelection": "first",
+    "editor.semanticHighlighting.enabled": true,
+    "explorer.confirmDelete": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.factorypath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      // "openapi-generator": true,
+      // "openapi-generator-cli": true,
+    },
+    "files.trimFinalNewlines": false,
+    "files.trimTrailingWhitespace": true,
+    "task.saveBeforeRun": "always",
+    "java.autobuild.enabled": false,
+    "java.completion.enabled": true,
+    "java.completion.guessMethodArguments": "auto",
+    "java.completion.maxResults": 5,
+    "java.format.onType.enabled": true,
+    "java.referencesCodeLens.enabled": true,
+    "java.saveActions.organizeImports": true,
+    "java.showBuildStatusOnStart.enabled": true,
+    "java.dependency.autoRefresh": true,
+    "java.dependency.refreshDelay": 3000,
+    "java.format.enabled": true,
+    "maven.pomfile.autoUpdateEffectivePOM": true,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    // "java.project.referencedLibraries": [
+    //   "./openapi-generator/target/openapi-generator-7.18.0-SNAPSHOT.jar"
+    // ],
+    "maven.excludedFolders": [
+      "**/.*",
+      "**/node_modules",
+      "**/target",
+      "**/bin",
+      "**/archetype-resources",
+      "samples"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+  },
+  "extensions": {
+    "recommendations": [
+      "vscjava.vscode-java-pack",
+      "attilabuti.mustache-syntax-vscode",
+      "formulahendry.code-runner",
+      "visualstudioexptteam.vscodeintellicode",
+      "42crunch.vscode-openapi",
+      "mermade.openapi-lint"
+    ]
+  }
+}
